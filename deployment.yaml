@@ -15,7 +15,7 @@ spec:
      spec:
          containers:
            - name: myflaskapp
-             image: "jw124210/flaskapp:1.2"
+             image: "jw124210/flaskapp:1.7"
   replicas: 1
   selector:
     matchLabels:
